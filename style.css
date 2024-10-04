@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF1BF;
+    color: black
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1em;
+ }
+
+ header img {
+    height: 5em;
+ }
+
+ nav a {
+    font-size: 1.5em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+a {
+    transition: all 0.10s ease;
+    display:flex
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    margin-left: 4em;
+}
+
+a:visited {
+    color: black;
+}
+
+h1 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4em;
+    margin: 5%;
+    padding: 1em;
+    border: 3px solid black;
+    box-sizing: border-box;
+    background-color: rgba(251, 219, 37, 0.863);
+    text-align: center;
+    border-radius: 20px;
+}
+
+a:hover {
+    color:gold;
+    transform: scale(1.2) rotate(10deg);
+}
+
+p { 
+    text-align: center;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 140%;
+    
+}
+
+.phone {
+    padding-bottom: 50px;
+    width: 400px;
+
+}
+
+.tumbnail {
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+* footer {
+    padding: 80px;
+}
+
+section img {
+    margin: auto;
+    width: 300px;
+    padding: 10px;
+    display: flex;
+}
+
+.poverons{
+    padding-left: 3vw;
+    padding-right: 3vw; 
+}
+
+article {
+    background-color: gold;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 1em;
+    width: 16em;
+    overflow: hidden;
+    display: inline-block;
+    margin: 120px; 
+}
+
+article img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.Over-Ons { 
+    padding: 20px;
+    text-align: center;
+}
+
+article h2 {
+    font-size: 1.4em;
+    margin-bottom: 1em;
+    color: black;
+}
+
+article ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+.afleveringen {
+    display:flex;
+    justify-content: space-around;    
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 30px;
+}
+
+
+
+
+
